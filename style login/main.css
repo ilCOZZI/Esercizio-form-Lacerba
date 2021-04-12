@@ -1,0 +1,343 @@
+*,* before, * after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+}
+
+.social_access {
+      margin: 0 auto;
+    max-width: 300px;
+}
+
+body {
+  font-family: arial
+  color: #384047;
+  background: #0ACD98;
+  display: block;
+  border: none;
+  color: white;
+}
+
+.formcontainer form{
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.formcontainer {
+	float: left;
+	padding-top: 10px;
+	width: 64%;
+  border: none;
+  color: white;
+} 
+
+.password_dimenticata {
+  float: right;
+  padding-top: 5px;
+}
+
+.alternative_access{
+  padding-top: 50px;
+  padding-bottom: 20px; 
+  font-size: 1.2rem;
+}
+
+.imgcontainer{
+    width: 36%;
+     background-image: url("https://lacerba.io/assets/illustrazione-login.png");
+    height: 100vh;
+    float: right;
+    background-size: cover;
+  border: none;
+  color: white;
+  position: relative;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.formcontainer img {
+  width: 150px;
+}
+
+
+.field {
+  position: relative;
+}
+
+.icon {
+position: absolute;
+color: gray;
+  font-family: 'Material Icons';
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+h1 {
+  color: white;
+  font-size:  1.7rem;
+  margin: 0 auto;
+    max-width: 450px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 1rem;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding-left: 50px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+  margin-top: 30px;
+}
+
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #8800C8;
+  font-size: 1rem;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.REGISTRATI {
+ 		width: 45%;
+    background-color: white;
+    margin-left: 155px;
+}
+
+.REGISTRATI a{
+  color: gray;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  font-style: normal; 
+}
+
+.sing_in_2 {
+  font-size: 1.5rem;
+    margin-top: 560px;
+    margin-left: 170px;
+}
+
+.Facebook {
+  width: 45%;
+  float: left;
+  padding: 10px;
+  color: gray;
+  font-size: 1rem;
+  font-style: normal; 
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.Google {
+  width: 45%;
+  float: right;
+  padding: 10px;
+  color: gray;
+  font-size: 1rem;
+  font-style: normal; 
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.sing_in, a {
+  text-align: center;
+  margin-top: 55px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+   text-decoration: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.news {
+  font-weight: 300;
+  display: inline;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+.formcontainer {
+    margin: 0 36px;
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+
+  .formcontainer img {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imgcontainer {
+  width: 35%;
+  height: 100vh;
+}
+
+.REGISTRATI {
+  margin-left: 152px;
+}
+
+.sing_in_2 {
+  margin-top: 510px;
+    margin-left: 157px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.formcontainer {
+    margin: 0 20px;
+    width: 59%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+.logo {
+    margin: 0 65px;
+}
+
+  .formcontainer img {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imgcontainer {
+  width: 37%;
+  height: 100vh;
+  background-position: center;
+}
+
+.sing_in_2 {
+    font-size: 1.5rem;
+    margin-top: 490px;
+    margin-left: 90px;
+}
+
+.REGISTRATI {
+  margin-left: 109px;
+}
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+
+.formcontainer {
+    margin: 0 20px;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+.logo {
+    margin: 0 60px;
+}
+
+  .formcontainer img {
+  	width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.imgcontainer {
+  width: 44%;
+    height: 100vh;
+    background-position: center;
+}
+
+.REGISTRATI {
+      margin-left: 90px;
+    padding-left: 28px;
+}
+
+.sing_in_2 {
+    font-size: 1.5rem;
+    margin-top: 492px;
+    margin-left: 67px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+
+.formcontainer form {
+    margin: 0 50px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+    margin: 0px 50px;
+    width: 100%;
+  }
+
+.logo {
+    margin: 0 50px;
+    width: 100%;
+}
+
+  .formcontainer img {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.imgcontainer {
+    display: none;
+  }
+
+.Facebook {
+  width: 100%;
+}
+
+.Google {
+  width: 100%;
+}
+
+.flexbox{
+  display: inline-block;
+  width: 100%;
+}
+}

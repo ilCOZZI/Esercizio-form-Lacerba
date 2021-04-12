@@ -1,0 +1,336 @@
+*,* before, * after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+}
+
+body {
+  font-family: arial
+  color: #384047;
+  background: #0ACD98;
+  display: block;
+  border: none;
+  color: white;
+}
+
+.formcontainer form{
+	 margin: 0 auto;
+  max-width: 500px;
+}
+
+.formcontainer {
+	float: left;
+	width: 70%;
+  border: none;
+  color: white;
+} 
+
+.imgcontainer{
+    width: 30%;
+     background-image: url("https://lacerba.io/assets/illustrazione-login.png");
+    height: 100vh;
+    float: right;
+    background-size: cover;
+  border: none;
+  color: white;
+  position: relative;
+  margin: 0;
+  background-position: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.formcontainer img {
+	width: 120px;
+}
+
+.social_access {
+      margin: 0 auto;
+    max-width: 300px;
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.field {
+  position: relative;
+  flex-basis: 45%;
+}
+.field_special{
+  position: relative;
+  flex-basis: 100%;
+}
+
+.icon {
+position: absolute;
+color: gray;
+  font-family: 'Material Icons';
+    font-size: 25px;
+    padding: 7px;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+    max-width: 500px;
+    padding-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="cognome"],
+input[type="conferma_password"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 1rem;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 4px 0;
+}
+
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #8800C8;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  border-bottom: none;
+  border-radius: 15px;
+}
+
+
+.alternative_access{
+  padding-top: 10px;
+  padding-bottom: 5px; 
+  font-size: 1.2rem;
+}
+
+.ACCEDI {
+  width: 50%;
+  background-color: white;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.ACCEDI a{
+  color: gray;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  font-style: normal; 
+}
+
+.login_2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 570px;
+  margin-left: 25px;
+}
+
+.Facebook {
+  width: 45%;
+  float: left;
+  padding: 10px;
+  color: gray;
+  font-size: 1rem;
+  font-style: normal; 
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.Google {
+  width: 45%;
+  float: right;
+  padding: 10px;
+  color: gray;
+  font-size: 1rem;
+  font-style: normal; 
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.login, a {
+  text-align: center;
+  margin-top: 55px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+   text-decoration: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+label.news {
+  font-weight: 300;
+  display: inline;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+.formcontainer {
+    margin: 0 36px;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+
+  .formcontainer img {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imgcontainer {
+  width: 45%;
+  height: 116vh;
+}
+
+.ACCEDI {
+  margin-left: 170px;
+}
+
+.login_2 {
+  margin-top: 595px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.formcontainer {
+    margin: 0 20px;
+    width: 59%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+.logo {
+    margin: 0 65px;
+}
+
+  .formcontainer img {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imgcontainer {
+  width: 37%;
+  height: 113vh;
+}
+
+.ACCEDI {
+  margin-left: 109px;
+}
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+
+.formcontainer {
+    margin: 0 20px;
+    width: 56%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+.logo {
+    margin: 0 60px;
+}
+
+  .formcontainer img {
+  	width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.imgcontainer {
+  width: 38%;
+  height: 113vh;
+}
+
+.ACCEDI {
+      margin-left: 90px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+
+.formcontainer form {
+    margin: 0 50px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+    margin: 0px 50px;
+    width: 100%;
+  }
+
+.logo {
+    margin: 0 50px;
+    width: 100%;
+}
+
+  .formcontainer img {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.imgcontainer {
+    display: none;
+  }
+
+.Facebook {
+  width: 100%;
+}
+
+.Google {
+  width: 100%;
+}
+
+.flexbox{
+  display: inline-block;
+  width: 100%;
+}
+}
